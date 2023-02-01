@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+/*header*/
+.header{
+    background-color: #a3daef;
+    display: flex;
+    justify-content:space-between;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+.navegador-menu--every{
+    font-size: 25px;
+    font-weight: bold;
+}
+.navegador-menu{
+    margin: 20px;
+    display: flex;
+    color: #a04075;
+    text-decoration: none;
+}
+/*main*/
+.img1 {
+    width: 290px;
+    height: 230px;
+}
+.img2 {
+    width: 240px;
+    height: 170px;
+}
+.h1{
+    color: #561872;
+    margin: 20px;
+    font-size: 25px;
+}
+.h1-contactanos{
+    text-align: center;
+}
+.contenedor-hijo{
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor-hijo--paquetes{
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor-p--dolar{
+    color: #a04075;
+}
+.contenedor-p--texto{
+    text-align: justify;
+    padding: 0px 25px;
+}
+.contenedor-caja{
+    border: solid 2px;
+    margin: 10px;
+}
+.contenedor-caja--paquetes{
+    border: solid 2px;
+    margin: 10px;
+}
+.contenedor-boton{
+    background-color: #004173;
+    color: white;
+    padding: 10px;
+    width: 290px;
+    border: none;
+    font-size: 20px;
+}
+.contenedor-boton--paquetes{
+    background-color: #004173;
+    color: white;
+    padding: 10px;
+    width: 240px;
+    border: none;
+    font-size: 20px;
+}
+.contenedor-p--paquetes{
+    color: #461759;
+    font-size: 30px;
+    font-weight:bold;
+}
+.contenedor-form{
+    padding: 20px;
+}
+.input, .form-textarea{
+    width:1300px;
+    border-color: rgb(247, 5, 146);
+    border-radius: 5px;
+    border-width: 2px;
+}
+.form-textarea{
+    height: 150px;
+}
+.form-boton{
+    color: white;
+    padding: 5px 20px;
+    background-color: #f54e07;
+    border: none;
+    border-radius: 5px;
+}
+/*footer*/
+.footer{
+    background-color: #a3daef;
+    color: #a04075;
+    margin: 40px 0px 0px 0px;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+.contenedor-footer{
+    display: flex;
+    justify-content:center;
+}
+
+
